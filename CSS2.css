@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    background-color: rgb(143, 112, 73);
+    max-width: 800px;
+    max-height: 2000px;
+    margin: auto;
+}
+.cont-header{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgb(141,135,138);
+    max-width: 900px;
+    max-height: 100%;
+}
+.container img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 60%;
+    padding: 0px;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+}
+.sous-header{
+    position: relative;
+    padding: 35px;
+    max-width: 100%;
+    height: auto;
+}
+.cont-bas{
+    position: relative;
+   display: grid;
+   grid-template-columns:1fr 2fr;
+   max-width: 1000px;
+}
